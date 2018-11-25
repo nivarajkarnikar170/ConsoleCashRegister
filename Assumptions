@@ -1,0 +1,10 @@
+I have made the following assumptions:
+
+1. Everything is done in memory so there is no look up for product id by productcode
+2. Product id is manually inserted by user. 
+3. Product id begins from 1. 
+4. Only two types of coupon 1-percent off 2-buy 3 get 1 free
+5. Product that sell by weight don't qualify for buy x get y free discount coupon
+6. while entering discount coupon, specify which product is to be implied by entering productids 
+7. Once done entering productid enter 0 to stop taking input and compute discount.
+8. Some validations like product id when adding coupon is not included but can be added easily.
